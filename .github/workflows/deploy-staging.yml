@@ -6,14 +6,14 @@ on:
     types: [labeled]
 
 env:
-  DOCKER_IMAGE_NAME: esheliko-azure-ttt
+  DOCKER_IMAGE_NAME: sps-devteam/DocCycle
   IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
   ### REPLACE USERNAME WITH GH USERNAME         ###
-  AZURE_WEBAPP_NAME: esheliko-ttt-app
+  AZURE_WEBAPP_NAME: sps-devteam/DocCycle
   #################################################
 
 jobs:
